@@ -5,7 +5,7 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     (array.join(", ")).gsub(array[-1], "and #{array[-1]}")
-    array[0..-1].join(', ')} "and " array.last
+    array[0..-1].join(', ') "and " array.last
     
 #   array << "and #{array.pop}"
 #    return array.join(", ")
